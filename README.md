@@ -6,3 +6,6 @@ Scripts to perform analysis of WATCH-IT study survey data and clinical factor mo
 - 'combine_comorbidities.R' merges the comorbidities with the survey data
 - 'main.R' performs the main analyses (multivariable logistic regression models, visualizations)
 - '/functions/long_file_generator.R' is a helper function called for comorbidity generation
+
+# dependencies
+sktools (devtools::install_github:git@github.com:shaankhurshid/sktools.git)
